@@ -1,1 +1,1 @@
-from .ecephys_project_template import *  # noqa
+from .ecephys_project_template import *
