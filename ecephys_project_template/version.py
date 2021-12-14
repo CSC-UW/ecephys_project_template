@@ -47,5 +47,11 @@ MINOR = _version_minor
 MICRO = _version_micro
 VERSION = __version__
 PACKAGE_DATA = {'ecephys_project_template': [pjoin('data', '*')]}
-REQUIRES = ["numpy"]
+REQUIRES = [
+    "ecephys",
+    "ecephys_project_manager",
+    "numpy",
+    "pandas",
+    "black",
+]
 PYTHON_REQUIRES = ">= 3.7"
