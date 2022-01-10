@@ -20,29 +20,29 @@ CLASSIFIERS = [
     "Development Status :: 3 - Alpha",
     "Environment :: Console",
     "Intended Audience :: Science/Research",
-    "License :: OSI Approved :: MIT License",
+    "License :: OSI Approved :: MIT License",  # REPLACE ME?
     "Operating System :: OS Independent",
     "Programming Language :: Python",
     "Topic :: Scientific/Engineering",
 ]
 
 # Description should be a one-liner:
-description = "ecephys_project_template: Put a one-liner description of your code here"
+description = "ecephys_project_template: Put a one-liner description of your code here"  # REPLACE ME!
 # Long description will go up on the pypi page
 long_description = """
 ecephys_project_template: Put a longer description of your code here.
-"""
+"""  # REPLACE ME!
 
 NAME = "ecephys_project_template"
-MAINTAINER = "Graham Findlay"
-MAINTAINER_EMAIL = "gfindlay@wisc.edu"
+MAINTAINER = "Graham Findlay"  # REPLACE ME!
+MAINTAINER_EMAIL = "gfindlay@wisc.edu"  # REPLACE ME!
 DESCRIPTION = description
 LONG_DESCRIPTION = long_description
-URL = "http://github.com/CSC-UW/ecephys_project_template"
+URL = "http://github.com/CSC-UW/ecephys_project_template"  # REPLACE ME!
 DOWNLOAD_URL = ""
 LICENSE = "MIT"
-AUTHOR = "Graham Findlay"
-AUTHOR_EMAIL = "gfindlay@wisc.edu"
+AUTHOR = "Graham Findlay"  # REPLACE ME!
+AUTHOR_EMAIL = "gfindlay@wisc.edu"  # REPLACE ME!
 PLATFORMS = "OS Independent"
 MAJOR = _version_major
 MINOR = _version_minor
