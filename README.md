@@ -42,7 +42,7 @@ At this point, make another commit, and continue to develop your own code based 
 This will also install [`ecephys`](https://github.com/CSC-UW/ecephys) and [`ecephys_project_manager`](https://github.com/CSC-UW/ecephys_project_manager as local, editable sibling directory.
 Ignore the `git clone` commands if these were cloned already.
 
-NB: The `ecephys` and `ecephys_project_manager` repositories need to be sibling directories. 
+NB: The `ecephys` and `ecephys_project_manager` repositories need to be sibling directories.
 
 ```
 git clone https://github.com/CSC-UW/ecephys.git
@@ -57,4 +57,4 @@ pip install -r requirements.txt
 ```
 
 ### Contributing
-If you wish to make any changes (e.g. add documentation, tests, continuous integration, etc.), please follow the [Shablona](https://github.com/uwescience/ecephys_project_template) template.
+If you wish to make any changes (e.g. add documentation, tests, continuous integration, etc.), please follow the [Shablona](https://github.com/uwescience/shablona) template.
