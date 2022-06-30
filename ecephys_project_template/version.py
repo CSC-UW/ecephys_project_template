@@ -51,7 +51,7 @@ VERSION = __version__
 PACKAGE_DATA = {"ecephys_project_template": [pjoin("data", "*")]}
 REQUIRES = [
     "ecephys",
-    "ecephys_project_manager",
+    "wisc_ecephys_tools",
     "black",
     "jupyter",
 ]

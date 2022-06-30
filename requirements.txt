@@ -1,10 +1,10 @@
 # Per https://stackoverflow.com/questions/43658870/requirements-txt-vs-setup-py
 
-# If ecephys/ecephys_project_manager exists as a sibling folder, and you wish to satisfy
+# If ecephys/wisc_ecephys_tools exists as a sibling folder, and you wish to satisfy
 # the dependency on ecephys using this local, editable copy of the source,
 # you can uncomment the line below.
 -e ../ecephys
--e ../ecephys_project_manager
+-e ../wisc_ecephys_tools
 
 # installs dependencies from ./setup.py, and the package itself,
 # in editable mode
