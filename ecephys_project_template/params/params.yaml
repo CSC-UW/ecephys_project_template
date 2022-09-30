@@ -1,0 +1,174 @@
+---
+analysis_type: on_off_detection
+analysis_params:
+  on_off_thres_test_0:
+    method: threshold
+    params:
+      binsize: 0.005
+      smooth_sd_counts: 1 # Units of binsize
+      binsize_smoothed_count_hist: 0.01 # 
+      smooth_sd_smoothed_count_hist: null   # None or Units of "binsize_smoothed_count_hist"
+      binsize_duration_hist: 0.005 # 
+      count_threshold: null
+      gap_threshold: 0.0
+  on_off_thres_test_1:
+    method: threshold
+    params:
+      binsize: 0.005
+      smooth_sd_counts: 3 # Units of binsize
+      binsize_smoothed_count_hist: 0.01 # 
+      smooth_sd_smoothed_count_hist: null   # None or Units of "binsize_smoothed_count_hist"
+      binsize_duration_hist: 0.005 # 
+      count_threshold: null
+      gap_threshold: 0.0
+  on_off_thres_test_2:
+    method: threshold
+    params:
+      binsize: 0.005
+      smooth_sd_counts: 1 # Units of binsize
+      binsize_smoothed_count_hist: 0.01 # 
+      smooth_sd_smoothed_count_hist: 50   # None or Units of "binsize_smoothed_count_hist"
+      binsize_duration_hist: 0.005 # 
+      count_threshold: null
+      gap_threshold: 0.0
+  on_off_thres_test_3:
+    method: threshold
+    params:
+      binsize: 0.005
+      smooth_sd_counts: 3 # Units of binsize
+      binsize_smoothed_count_hist: 0.01 # 
+      smooth_sd_smoothed_count_hist: 50   # None or Units of "binsize_smoothed_count_hist"
+      binsize_duration_hist: 0.005 # 
+      count_threshold: null
+      gap_threshold: 0.0
+  on_off_thres_test_4:
+    method: threshold
+    params:
+      binsize: 0.005
+      smooth_sd_counts: 1 # Units of binsize
+      binsize_smoothed_count_hist: 0.01 # 
+      smooth_sd_smoothed_count_hist: 100   # None or Units of "binsize_smoothed_count_hist"
+      binsize_duration_hist: 0.005 # 
+      count_threshold: null
+      gap_threshold: 0.0
+  on_off_thres_test_5:  # Slightly smaller count_threshold than 4
+    method: threshold
+    params:
+      binsize: 0.005
+      smooth_sd_counts: 3 # Units of binsize
+      binsize_smoothed_count_hist: 0.01 # 
+      smooth_sd_smoothed_count_hist: 100   # None or Units of "binsize_smoothed_count_hist"
+      binsize_duration_hist: 0.005 # 
+      count_threshold: null
+      gap_threshold: 0.0
+  on_off_thres_test_6:
+    method: threshold
+    params:
+      binsize: 0.005
+      smooth_sd_counts: 1 # Units of binsize
+      binsize_smoothed_count_hist: 0.1 # 
+      smooth_sd_smoothed_count_hist: null   # None or Units of "binsize_smoothed_count_hist"
+      binsize_duration_hist: 0.005 # 
+      count_threshold: null
+      gap_threshold: 0.0
+  on_off_thres_test_7:
+    method: threshold
+    params:
+      binsize: 0.005
+      smooth_sd_counts: 3 # Units of binsize
+      binsize_smoothed_count_hist: 0.1 # 
+      smooth_sd_smoothed_count_hist: null   # None or Units of "binsize_smoothed_count_hist"
+      binsize_duration_hist: 0.005 # 
+      count_threshold: null
+      gap_threshold: 0.0
+  on_off_thres_test_8:
+    method: threshold
+    params:
+      binsize: 0.005
+      smooth_sd_counts: 1 # Units of binsize
+      binsize_smoothed_count_hist: 0.1 # 
+      smooth_sd_smoothed_count_hist: 5   # None or Units of "binsize_smoothed_count_hist"
+      binsize_duration_hist: 0.005 # 
+      count_threshold: null
+      gap_threshold: 0.0
+  on_off_thres_test_9:
+    method: threshold
+    params:
+      binsize: 0.005
+      smooth_sd_counts: 3 # Units of binsize
+      binsize_smoothed_count_hist: 0.1 # 
+      smooth_sd_smoothed_count_hist: 5   # None or Units of "binsize_smoothed_count_hist"
+      binsize_duration_hist: 0.005 # 
+      count_threshold: null
+      gap_threshold: 0.0
+  on_off_thres_test_10:
+    method: threshold
+    params:
+      binsize: 0.005
+      smooth_sd_counts: 1 # Units of binsize
+      binsize_smoothed_count_hist: 0.1 # 
+      smooth_sd_smoothed_count_hist: 10   # None or Units of "binsize_smoothed_count_hist"
+      binsize_duration_hist: 0.005 # 
+      count_threshold: null
+      gap_threshold: 0.0
+  on_off_thres_test_11:
+    method: threshold
+    params:
+      binsize: 0.005
+      smooth_sd_counts: 3 # Units of binsize
+      binsize_smoothed_count_hist: 0.1 # 
+      smooth_sd_smoothed_count_hist: 10   # None or Units of "binsize_smoothed_count_hist"
+      binsize_duration_hist: 0.005 # 
+      count_threshold: null
+      gap_threshold: 0.0
+  on_off_thres_test_12:
+    method: threshold
+    params:
+      binsize: 0.005
+      smooth_sd_counts: 1 # Units of binsize
+      binsize_smoothed_count_hist: 0.01 # 
+      smooth_sd_smoothed_count_hist: 10   # None or Units of "binsize_smoothed_count_hist"
+      binsize_duration_hist: 0.005 # 
+      count_threshold: null
+      gap_threshold: 0.0
+  on_off_thres_test_13:
+    method: threshold
+    params:
+      binsize: 0.005
+      smooth_sd_counts: 3 # Units of binsize
+      binsize_smoothed_count_hist: 0.01 # 
+      smooth_sd_smoothed_count_hist: 10   # None or Units of "binsize_smoothed_count_hist"
+      binsize_duration_hist: 0.005 # 
+      count_threshold: null
+      gap_threshold: 0.0
+  on_off_thres_test_14:
+    method: threshold
+    params:
+      binsize: 0.005
+      smooth_sd_counts: 6 # Units of binsize
+      binsize_smoothed_count_hist: 0.01 # 
+      smooth_sd_smoothed_count_hist: 5   # None or Units of "binsize_smoothed_count_hist"
+      binsize_duration_hist: 0.005 # 
+      count_threshold: null
+      gap_threshold: 0.0
+  on_off_thres_test_15:
+    method: threshold
+    params:
+      binsize: 0.005
+      smooth_sd_counts: 6 # Units of binsize
+      binsize_smoothed_count_hist: 0.01 # 
+      smooth_sd_smoothed_count_hist: 10   # None or Units of "binsize_smoothed_count_hist"
+      binsize_duration_hist: 0.005 # 
+      count_threshold: null
+      gap_threshold: 0.0
+  on_off_thres_test_16:
+    method: threshold
+    params:
+      binsize: 0.005
+      smooth_sd_counts: 6 # Units of binsize
+      binsize_smoothed_count_hist: 0.01 # 
+      smooth_sd_smoothed_count_hist: 20   # None or Units of "binsize_smoothed_count_hist"
+      binsize_duration_hist: 0.005 # 
+      count_threshold: null
+      gap_threshold: 0.0
+...

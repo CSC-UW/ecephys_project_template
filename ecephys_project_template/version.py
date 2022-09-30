@@ -34,25 +34,28 @@ ecephys_project_template: Put a longer description of your code here.
 """  # REPLACE ME!
 
 NAME = "ecephys_project_template"
-MAINTAINER = "Graham Findlay"  # REPLACE ME!
-MAINTAINER_EMAIL = "gfindlay@wisc.edu"  # REPLACE ME!
+MAINTAINER = "Tom Bugnon"
+MAINTAINER_EMAIL = "bugnon@wisc.edu"
 DESCRIPTION = description
 LONG_DESCRIPTION = long_description
-URL = "http://github.com/CSC-UW/ecephys_project_template"  # REPLACE ME!
+URL = "http://github.com/CSC-UW/ecephys_project_template"
 DOWNLOAD_URL = ""
 LICENSE = "MIT"
-AUTHOR = "Graham Findlay"  # REPLACE ME!
-AUTHOR_EMAIL = "gfindlay@wisc.edu"  # REPLACE ME!
+AUTHOR = "Tom Bugnon"
+AUTHOR_EMAIL = "bugnon@wisc.edu"
 PLATFORMS = "OS Independent"
 MAJOR = _version_major
 MINOR = _version_minor
 MICRO = _version_micro
 VERSION = __version__
 PACKAGE_DATA = {"ecephys_project_template": [pjoin("data", "*")]}
-REQUIRES = [
+INSTALL_REQUIRES = [
     "ecephys",
     "wisc_ecephys_tools",
     "black",
     "jupyter",
+    "bokeh",
+    "altair",
+    "on_off_detection", # @ git+https://github.com/CSC-UW/on_off_detection.git@master#egg=on_off_detection"
 ]
 PYTHON_REQUIRES = ">= 3.7"

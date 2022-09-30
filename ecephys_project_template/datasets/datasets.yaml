@@ -1,0 +1,45 @@
+frontal: &frontal
+  # No frontal for Secundo
+  # No frontal for valentino
+  - 
+    subject: CNPIX4-Doppio
+    probe: imec1
+    region: null
+  # - # No frontal for alessandro
+  # - [CNPIX6-Eugene, imec1, null]  # Eugene has different implantation
+  # - [CNPIX7-Giuseppe, imec0, null]    # TODO error in pandas because of stem
+  # - [CNPIX8-Allan, imec0, null] . # Many gaps (crash). Multiple subaliases.
+  # No frontal for Luigi
+  - [CNPIX10-Charles, imec0, null]
+  - [CNPIX11-Adrian, imec0, null]
+  # - [CNPIX12-Santiago, imec0, null] # OFC implantation. TODO Move AP 
+  # - [CNPIX13-Al, imec0, null]  # TODO: Move AP # OFC implantation.
+  # - [CNPIX14-Francis, imec0, null] # TODO Move AP. Matias says "something wrong with this probe"
+  - [CNPIX15-Claude, imec0, null]
+parietal: &parietal
+  - [CNPIX2-Secundo, imec0, null]
+  - [CNPIX3-Valentino, imec0, null]
+  - [CNPIX4-Doppio, imec0, null]
+  - [CNPIX5-Alessandro, imec0, null]
+  - [CNPIX6-Eugene, imec0, null]
+  # - [CNPIX7-Giuseppe, imec1, null]  # Different frontal
+  - [CNPIX8-Allan, imec1, null]
+  - [CNPIX9-Luigi, imec0, null]
+  - [CNPIX10-Charles, imec1, null]
+  - [CNPIX11-Adrian, imec1, null]
+  - [CNPIX12-Santiago, imec1, null]
+  # - [CNPIX13-Al, imec1, null]  # Histology ppt says Al parietal probe is "bad"??
+  # - [CNPIX14-Francis, imec1, null]
+  # - [CNPIX15-Claude, imec1, null]
+frontal_cortex: &frontal_cortex
+  - [CNPIX4-Doppio, imec1, cortex_base]
+  # - [CNPIX8-Allan, imec0, cortex_base]
+  - [CNPIX10-Charles, imec0, cortex_base]
+  # - [CNPIX11-Adrian, imec0, cortex_base]
+  # - [CNPIX13-Al, imec0, cortex_base]
+striatum: &striatum
+  - [CNPIX15-Claude, imec0, striatum_base]
+all:
+  - [CNPIX4-Doppio, imec1, cortex_base]
+  - [CNPIX10-Charles, imec0, cortex_base]
+  - [CNPIX15-Claude, imec0, striatum_base]
