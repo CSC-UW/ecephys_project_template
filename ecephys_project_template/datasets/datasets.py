@@ -1,8 +1,12 @@
-from ..constants import PARAMS_DIRECTORY
+import os
+from pathlib import Path
+
 import yaml
 
-def get_datasets_list(dataset_name):
-    with open(PARAMS_DIRECTORY/'datasets.yaml', 'r') as f:
+DATASETS_DIRECTORY = Path(os.path.abspath(__file__)).parent
+
+def get_datasets(dataset_name):
+    with open(DATASETS_DIRECTORY/'datasets.yaml', 'r') as f:
         return yaml.load(
             f,
             Loader=yaml.SafeLoader,
